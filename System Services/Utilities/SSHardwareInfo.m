@@ -245,10 +245,20 @@
                 newDeviceType = @"iPad mini 2 (WiFi)";
             else if ([deviceType isEqualToString:@"iPad4,5"])
                 newDeviceType = @"iPad mini 2 (Cellular)";
+            else if ([deviceType isEqualToString:@"iPad4,6"])
+            newDeviceType = @"iPad Mini 2 (China)";
+            else if ([deviceType isEqualToString:@"iPad4,7"])
+            newDeviceType = @"iPad Mini 3 (WiFi)";
+            else if ([deviceType isEqualToString:@"iPad4,8"])
+            newDeviceType = @"iPad Mini 3 (Cellular)";
+            else if ([deviceType isEqualToString:@"iPad4,9"])
+            newDeviceType = @"Pad Mini 3 (China)";
             else if ([deviceType isEqualToString:@"iPad5,1"])
                 newDeviceType = @"iPad mini 4 (WiFi)";
             else if ([deviceType isEqualToString:@"iPad5,2"])
                 newDeviceType = @"iPad mini 4 (Cellular)";
+            else if ([deviceType isEqualToString:@"iPad5,3"])
+            newDeviceType = @"iPad Air 2 (WiFi)";
             else if ([deviceType isEqualToString:@"iPad5,4"])
                 newDeviceType = @"iPad Air 2 (WiFi)";
             else if ([deviceType isEqualToString:@"iPad5,5"])
